@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIT</title>
+</head>
+<body>
+    <CENTER>
+    <h1>BANNARIAMMANN INSTITUTE OF TECHNOLOGY</h1>
+   </CENTER>
+   <hr>
+
+<form> 
+    <h2>registration form</h2>
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" id="fname" required> 
+  <br>
+    <label for="lname">Last Name</label>
+    <input type="text" name="lname" id="lname" required> 
+  
+    <br>
+    <label for="fname">Phone No</label>
+    <input type="number" name="fname" id="fname" required> 
+<br>
+<label for="password">password</label>
+<input type="password" name="password" id="password" required>
+<br>
+
+<label for="gender">Gender</label> <br>
+<input type="radio" name="gender" id="male" >
+<label for="male">Male</label>
+<br>
+
+<input type="radio" name="gender" id="female" >
+<label for="female">Female</label>
+<br>
+
+<input type="radio" name="gender" id="others" >
+<label for="others">Others</label>
+<br>
+
+<label for="Department">Department</label>
+
+<select name="Department" id="Department">
+<option value="">select Department</option>
+<option value="">cse</option>
+<option value="">biotech</option>
+<option value="aids">AIDS</option>
+</select>
+
+<br>
+
+<label for="dob">DOB</label>
+<input type="date" name="dob" id="dob" required> 
+<br>
+
+<label for="fname">Resume upload</label>
+<input type="file" name="fname" id="fname" required>
+
+<br>
+
+<label for="photo">Photo</label>
+<input type="file" name="fname" id="fname" required>
+
+<br>
+
+
+<input type="reset" value="reset">
+<input type="submit" value="submit">
+</form>
+
+
+
+
+
+
+</body>
+</html>
