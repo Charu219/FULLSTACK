@@ -120,3 +120,97 @@ INDEX.HTML
 
 </body>
 </html>
+
+
+REGISTER.HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conformation</title>
+</head>
+<body>
+    <center>
+    <h1>CONFORMATION FOR SEMESTER MARKSHEET</h1>
+    </center>
+  <hr>
+    <center>
+
+       
+        <form>
+
+            <br> <br>
+             <label for="fname"> NAME:</label>
+            <input type="text" required>
+             <br> <br>
+
+
+            <label for="regno"> REGISTER NO:</label>
+            <input type="text" required>
+             <br> <br>
+
+
+             <label for="depart"> DEPARTMENT:</label>
+            <select name="" id="">
+<option value="">Select department</option>
+         <option value="">CSE</option>
+            <option value="">AIDS</option>
+         <option value="">AIML</option>
+         <option value="">BIOTECH</option>
+           <option value="">EEE</option>
+
+            </select>
+             
+<BR> <br>
+
+            <label for="gender"> GENDER:</label>  
+            <input type="radio" name="gender" id="male"  required>
+            <label for="male">MALE</label>
+             
+
+             <input type="radio" name="gender" id="female">
+            <label for="female">FEMALE</label>
+             <br>
+        <br>
+
+             <label for="dob"> D.O.B</label>
+            <input type="date" required>
+             <br>
+  <br>
+
+             <label for="email"> EMAIL:</label>
+            <input type="email" required>
+        <br> <br>
+
+        <label for="fname"> PHONE NO:</label>
+            <input type="number" required>
+             <br> <br>
+
+
+     <label for="">MARKSHEET UPLOAD</label>
+     <input type="file">
+   <br> <br>
+
+   <label for="">PHOTO</label>
+   <input type="file">
+        </form>
+      
+    </center>
+
+   <hr>
+   <center>
+   <h3> <input type="checkbox"> HEAR BY I DECLARE ALL MY MARKS ARE CHECKED AND NO CHANGES </input></h3>
+   <br>
+   <br>
+    
+    <Button>CONFIRM</Button>
+    </center>
+
+</body>
+</html> 
+
+
+
+
+
