@@ -1,0 +1,122 @@
+INDEX.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Sheet</title>
+</head>
+<body>
+    <center>
+    <h1>BANNARI AMMAN INSTITUTE OF TECHNOLOGY</h1>
+    <P>(An Autonomous institution Affliated to Anna University chennai)</P>
+     <h5>SATHYAMANGALAM-630 401 TAMILNADU INDIA</h5>
+     </center>
+     <br>
+     <center>
+     <img src="images/bitlogo.png" alt="bitlogo" width="100" height="100">
+     </center>
+
+
+     <center>
+        <b>B.tech  DEGREE EXAMINATIONS JUL 2024</b>
+        <h3>STATEMENT OF GRADES</h3>
+     </center>
+<hr>
+<h5>NAME:CHARU S</h5>
+<h5>REGISTER NO:7376232BT118</h5>
+<h5>UMIS NO:2023737621422018</h5>
+<h5>BRANCH:BIOTECHNOLOGY</h5>
+<h5>DATE OF BIRTH:06-09-2005</h5>
+<hr>
+<CENTER>
+<table border="1" width="75%" cellpadding="12" cellspacing="0">
+<tr>
+    <th>Course</th>
+    <th>Course Title</th>
+    <th>Credits</th>
+    <th>Grade Points</th>
+    <th>Letter Grade</th>
+</tr>
+
+<tr>
+    <th>22MA201</th>
+    <th>ENGINEERING MATHEMATICS</th>
+    <TH>4</TH>
+    <TH>6</TH>
+    <TH>B</TH>
+</tr>
+<TR>
+<th>22PH202</th>
+<TH>PHYSICS</TH>
+<th>3</th>
+<TH>7</TH>
+<TH>B+</TH>
+</TR>
+
+<TR>
+    <TH>22CH203</TH>
+     <TH>PROBLEM SOLVING</TH>
+    <TH>3</TH>
+    <TH>7</TH>
+    <TH>B+</TH>
+</TR>
+
+<TR>
+    <TH>22GE002</TH>
+    <TH>ELECTRONICS ENGINEERING</TH>
+    <TH>3</TH>
+    <TH>8</TH>
+    <TH>A</TH>
+</TR>
+   
+    <TR>
+<TH>22GE004</TH>
+<TH>ENGINEERING DRAWING</TH>
+        <TH>5</TH>
+        <TH>9</TH>
+        <TH>A</TH>
+    </TR>
+    
+<TR>
+    <TH>22GE005</TH>
+    <TH>FRENCH</TH>
+    <TH>4</TH>
+    <TH>8</TH>
+    <TH>B+</TH>
+</TR>
+
+<TR>
+    <TH>22HS006</TH>
+    <TH>FRENCH</TH>
+    <TH>4</TH>
+    <TH>8</TH>
+    <TH>A+</TH>
+</TR>
+    </CENTER>
+
+    
+</table>
+<br>
+<CENTER>
+        **END OF STATEMENT**
+    </CENTER>
+
+<br>
+
+<div style="text-align:left;margin-left:20px">
+<h4>Credits Registered in II semester :21</h4>          <H4>Credits Registered up to II Semester:42</H4>
+<h4>Credits Examined in II Semester:21</h4>           <h4>Credits Earned up to II Semester:42</h4>
+<h4>Semester Grade Point Average(SGPA):7.14</h4>     <h4>Cumulative Grade Point Average(CGPA):8.02</h4> 
+   </div> 
+    <hr>
+
+    <center>
+    <marquee behavior="" direction="">CLICK HERE FOR CONFORMATION <a href="register.html" target="_blank">Click Now</a></marquee>  
+    </center>
+   
+   
+
+</body>
+</html>
