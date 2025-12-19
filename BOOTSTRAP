@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+<div class="container">
+<h1>BANNARI AMMAN TECHNOLOGY</h1>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae provident est vel velit assumenda tempore nam illo, error cupiditate, veniam, repellat iure odit ratione explicabo a voluptatum asperiores vitae. Exercitationem amet modi voluptatibus, facere, odit eveniet error nisi eius nihil totam dolore animi ab quo quos aspernatur magni. Nulla porro debitis tempore dignissimos iste repellat assumenda fugiat reprehenderit rerum. Sed recusandae earum temporibus quibusdam repellendus voluptas enim unde hic exercitationem ducimus voluptates veniam eos tempore suscipit distinctio vitae assumenda explicabo accusamus, consectetur, in, aspernatur reprehenderit minus sint rem! Sunt voluptate nihil minima atque neque inventore velit ipsam dignissimos, tenetur iusto!</P>
+</div>
+ 
+<div class="containerfluid">
+<h1>BANNARI AMMAN TECHNOLOGY</h1>
+    <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae provident est vel velit assumenda tempore nam illo, error cupiditate, veniam, repellat iure odit ratione explicabo a voluptatum asperiores vitae. Exercitationem amet modi voluptatibus, facere, odit eveniet error nisi eius nihil totam dolore animi ab quo quos aspernatur magni. Nulla porro debitis tempore dignissimos iste repellat assumenda fugiat reprehenderit rerum. Sed recusandae earum temporibus quibusdam repellendus voluptas enim unde hic exercitationem ducimus voluptates veniam eos tempore suscipit distinctio vitae assumenda explicabo accusamus, consectetur, in, aspernatur reprehenderit minus sint rem! Sunt voluptate nihil minima atque neque inventore velit ipsam dignissimos, tenetur iusto!</P>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+<img src="data:image/jpeg;base64,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" alt="">
+        </div>
+ <div class="col">
+                <P style="color: #48246E;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae provident est vel velit assumenda tempore nam illo, error cupiditate, veniam, repellat iure odit ratione explicabo a voluptatum asperiores vitae. Exercitationem amet modi voluptatibus, facere, odit eveniet error nisi eius nihil totam dolore animi ab quo quos aspernatur magni. Nulla porro debitis tempore dignissimos iste repellat assumenda fugiat reprehenderit rerum. Sed recusandae earum temporibus quibusdam repellendus voluptas enim unde hic exercitationem ducimus voluptates veniam eos tempore suscipit distinctio vitae assumenda explicabo accusamus, consectetur, in, aspernatur reprehenderit minus sint rem! Sunt voluptate nihil minima atque neque inventore velit ipsam dignissimos, tenetur iusto!</P>
+
+        </div>
+
+        <div class="col" >
+       
+        
+<img src="https://img.youtube.com/vi/cnhgH9s-4zo/0.jpg" height="300" width="300"></img>
+       
+</div> 
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-8" >
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor omnis ipsam nemo architecto, adipisci voluptates accusantium similique, nihil tempore rerum, non soluta vel reprehenderit nisi consequuntur quisquam laborum illo quia ducimus deserunt recusandae asperiores. Pariatur quis fuga porro a minus non magnam maiores natus quo voluptas, commodi eius qui expedita sequi enim velit aperiam sapiente vel assumenda. Laudantium repellat accusamus soluta temporibus dolor esse deserunt ipsum officia itaque corrupti, vero accusantium saepe aut magni molestiae unde assumenda. Blanditiis, illo totam fugiat rerum quidem inventore nesciunt ea error facilis, delectus in iste, explicabo laborum excepturi vero. Deserunt tenetur animi vitae at!</p>        
+ </div>
+
+<div class="col-2">
+<P style="color: #48246E;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae provident est vel velit assumenda tempore nam illo, error cupiditate, veniam, repellat iure odit ratione explicabo a voluptatum asperiores vitae. Exercitationem amet modi voluptatibus, facere, odit eveniet error nisi eius nihil totam dolore animi ab quo quos aspernatur magni. Nulla porro debitis tempore dignissimos iste repellat assumenda fugiat reprehenderit rerum. Sed recusandae earum temporibus quibusdam repellendus voluptas enim unde hic exercitationem ducimus voluptates veniam eos tempore suscipit distinctio vitae assumenda explicabo accusamus, consectetur, in, aspernatur reprehenderit minus sint rem! Sunt voluptate nihil minima atque neque inventore velit ipsam dignissimos, tenetur iusto!</P>
+</div>
+
+<div class="col-2" >
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor omnis ipsam nemo architecto, adipisci voluptates accusantium similique, nihil tempore rerum, non soluta vel reprehenderit nisi consequuntur quisquam laborum illo quia ducimus deserunt recusandae asperiores. Pariatur quis fuga porro a minus non magnam maiores natus quo voluptas, commodi eius qui expedita sequi enim velit aperiam sapiente vel assumenda. Laudantium repellat accusamus soluta temporibus dolor esse deserunt ipsum officia itaque corrupti, vero accusantium saepe aut magni molestiae unde assumenda. Blanditiis, illo totam fugiat rerum quidem inventore nesciunt ea error facilis, delectus in iste, explicabo laborum excepturi vero. Deserunt tenetur animi vitae at!</p>       
+  </div> 
+
+    </div>
+</div>
+
+
+<div class="class">
+    <div class="col-8">
+        <div class="row">
+
+            <div class="col-6">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ex consectetur quis accusamus molestias corrupti adipisci illo. Ullam quas et minus placeat sapiente magnam consequuntur ex labore aperiam. Harum, explicabo pariatur aliquid quisquam animi culpa placeat id hic ea nihil consectetur suscipit sequi, quibusdam deserunt, tempora soluta cupiditate! Quam odio eveniet laudantium dolorum recusandae eos perferendis reprehenderit unde harum iste, est vero saepe incidunt suscipit, aperiam cum blanditiis quaerat velit ab amet! Vitae explicabo architecto deserunt. Voluptas, ab voluptatum totam numquam blanditiis pariatur iste cupiditate facere rem aperiam error soluta quia nesciunt. Modi perspiciatis assumenda autem suscipit quos, harum deserunt!</p>
+            </div>
+
+            <div class="class-6">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore tenetur aliquam, tempore fuga consectetur facere. Amet cupiditate similique assumenda possimus temporibus sequi dolore modi excepturi magni quisquam quas nostrum, cum nemo consectetur obcaecati totam molestiae exercitationem delectus iure soluta ipsum aspernatur doloribus vel. Atque illum doloremque architecto? Quia facilis odit impedit delectus dicta, explicabo quis illo ratione voluptas aspernatur ut odio eveniet a laborum consequuntur modi facere recusandae soluta ipsam cumque? Repellendus doloremque maiores voluptates autem, quae voluptatum sint iure numquam. Dicta, placeat assumenda ad praesentium sint porro consectetur minima sunt? Soluta eligendi fuga voluptate impedit velit sunt voluptates rerum?</p>
+            </div>
+          <div class="col4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat hic commodi! Dolores ducimus eius suscipit exercitationem, quasi molestias perferendis inventore ea! Quidem quod natus officia, nemo nihil fuga inventore laudantium atque cupiditate quisquam ab ad vitae illo repudiandae impedit error odio! Assumenda quo adipisci neque sit! Aliquam, quis voluptate.</p>
+    </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<!-- <div class="row">
+    <h1>BANNARI AMMANN</h1>
+     <h2>BANNARI AMMANN</h2>
+      <h3>BANNARI AMMANN</h3>
+       <h4>BANNARI AMMANN</h4>
+        <h5>BANNARI AMMANN</h5>
+         <h6>BANNARI AMMANN</h6>
+
+         <p class="h1"> BANNARI AMMAN</p>
+         <div class="class-h2">BANNARI AMMAN</div>
+</div> -->
+
+<div class="row">
+    <h1 class="display-1">BANNARI AMMAN</h1>
+    <p class="display-2">BANNARI AMMAN TECHNOLOGY</p>
+   <p class="display-3">BANNARI AMMAN TECHNOLOGY</p>
+<p class="display-4">BANNARI AMMAN TECHNOLOGY</p>
+<p class="display-5">BANNARI AMMAN TECHNOLOGY</p>
+<p class="display-6">BANNARI AMMAN TECHNOLOGY</p>
+
+
+
+<b>BANNARI AMMAN TECHNOLOGY OF ENGINEERING</b>
+<i>BANNARI AMMAN TECHNOLOGY OF ENGINEERING</i>
+<mark>BANNARI AMMAN TECHNOLOGY OF ENGINEERING</mark>
+
+<h1><span style="color:#E2CCF9">ABOUT</span> <span class="big-success">manoj kumar</span></h1>
+
+</div>
+
+
+
+<div class="row">
+    <h1>BOOTSTRAP TEXT AND BACKGROUND</h1>
+    <div class="col">
+        <p class="text-primary">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+
+        <p class="text-secondary">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+
+        <p class="text-success">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+
+        <p class="text-warning">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+
+                <p class="text-danger">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+
+         <p class="text-info">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+         <p class="text-light">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+
+         <p class="text-dark">
+      BANNARI AMMAN TECHNOLOGY OF ENGINEERING
+        </p>
+    </div>
+<div class="col">
+    <p class="bg-primary">
+        BANNARI AMMAN
+    </p>
+
+    <p class="bg-secondary">
+        BANNARI AMMAN
+    </p>
+
+     <p class="bg-success">
+        BANNARI AMMAN
+    </p>
+
+     <p class="bg-warning">
+        BANNARI AMMAN
+    </p>
+
+     <p class="bg-danger">
+        BANNARI AMMAN
+    </p>
+
+     <p class="bg-info">
+        BANNARI AMMAN
+    </p>
+
+     <p class="bg-light">
+        BANNARI AMMAN
+    </p>
+
+     <p class="bg-dark">
+        BANNARI AMMAN
+    </p>
+
+<p class="text-warning bg-danger p-3 m-6">BANNARI AMMAN TECH</p>
+
+</div>
+
+</div>
+
+
+<div class="row">
+    <table class="table table-bordered table-striped table-hover ">
+        <tr>
+            <th class="bg-dark">S.NO</th>
+            <th class="bg-danger">NAME</th>
+            <th class="bg-success">EMAIL</th>
+            <th class="bg-warning">ROLE</th>
+            <th class="bg-info">BUTTON</th>
+        </tr>
+
+        <TR>
+            <td class="bg-dark">Manoj</td>
+            <td class="bg-danger">manoj@123ac.in</td>
+            <td class="bg-success">developer</td>
+            <td class="bg-warning">1</td>
+            <td class="bg-info">
+                <button class="btn bg-danger">DELETE</button> &nbsp &nbsp;
+                <button class="btn bg-warning">EIDT</button>
+            </td>
+        </TR>
+
+
+        <TR>
+            <td class="bg-dark">billlgates</td>
+            <td class="bg-danger">billgates@123ac.in</td>
+            <td class="bg-success">developer</td>
+             <td class="bg-warning">1</td>
+              <td class="bg-info">
+                <button class="btn bg-danger">DELETE</button> &nbsp &nbsp;
+                <button class="btn bg-warning">EIDT</button>
+            </td>
+        </TR>
+
+        <tr>
+            <td class="bg-dark">billlgates</td>
+            <td class="bg-danger">billgates@123ac.in</td>
+            <td class="bg-success">developer</td>
+             <td class="bg-warning">1</td>
+              <td class="bg-info">
+                <button class="btn bg-danger">DELETE</button> &nbsp &nbsp;
+                <button class="btn bg-warning">EIDT</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="bg-dark">billlgates</td>
+            <td class="bg-danger">billgates@123ac.in</td>
+            <td class="bg-success">developer</td>
+             <td class="bg-warning">1</td>
+              <td class="bg-info">
+                <button class="btn bg-danger">DELETE</button>  &nbsp &nbsp;
+                <button class="btn bg-warning">EIDT</button>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td class="bg-dark">billlgates</td>
+            <td class="bg-danger">billgates@123ac.in</td>
+            <td class="bg-success">developer</td>
+             <td class="bg-warning">1</td>
+              <td class="bg-info">
+                <button class="btn bg-danger">DELETE</button>   &nbsp &nbsp;
+                <button class="btn bg-warning">EIDT</button>
+            </td>
+        </tr>
+
+
+    </table>
+
+</div>
+
+
+<div class="row justify-content-center">
+    <div class="col-6">
+    <form action="">
+        <div class="mb-3">
+            <label for="name" class="form-label">USER NAME</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="regno" class="form-label">REGISTER NO</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+        
+          
+
+        <div class="mb-3">
+            <label for="email" class="form-label">E-MAIL</label>
+            <input type="email" class="form-control" required>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="contact" class="form-label">PHONE:NO</label>
+            <input type="number" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="gender" class="form-check-label">GENDERS</label>
+            <input type="radio" name="gender" value="Male" class="form-check-input"> MALE 
+             <input type="radio" name="gender" value="Female" class="form-check-input" > FEMALE 
+        </div>
+
+
+
+        <div class="mb-3">
+            <label for="department" class="form-label">DEPARTMENT</label> <br>
+         <select name="" id="" class="mb-3">
+            <option value="">select department</option>
+            <option name="" id="">CSE</option>
+            <option name="" id="">IT</option>
+             <option name="" id="">EEE</option>
+             <option name="" id="">E&I</option>
+          </select>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="INTERN" class="form-label">COMPANY NAME</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="fromdate" class="form-label">FROM DATE</label>
+            <input type="date" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="DATETIME" class="form-label">DATE-TIME</label>
+            <input type="datetime" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="DATETIME" class="form-label">RESUME</label>
+            <input type="file" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="DATETIME" class="form-label">PHOTO</label>
+            <input type="file" class="form-control" required>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="address" class="form-label">ADDRESS</label>
+            <textarea name="address" id="address" cols="30" class="form-control"></textarea>
+
+         <div class="mb-3">
+             <input type="checkbox" class="form-check-input">
+            <label class="form-check-label">I Agree Terms and Conditions of BIT </label>
+           
+         </div>
+
+          <div >
+            <button type="submit" class="btn btn-danger">SUBMIT</button>
+        </div>
+       </form>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-4">
+        <img src="https://www.bitsathy.ac.in/wp-content/uploads/About-Card-scaled.jpg" alt="" class="img-fluid">
+    </div>
+    <div class="col-4">
+
+     </div>
+<div class="col-4">
+    <img src="https://www.bitsathy.ac.in/wp-content/uploads/About-Card-scaled.jpg" alt="" class="rounded-circle img-fluid float-end">
+</div>
+
+
+<div class="mt-5 text-center">
+    <img src="https://www.bitsathy.ac.in/wp-content/uploads/About-Card-scaled.jpg" alt="" width="400px" height="200px" class="float-center">
+</div>
+</div>
+
+
+
+
+
+
+<div class="container">
+    <button class="btn btn-primary">SUBMIT</button>
+    <button class="btn btn-danger">SUBMIT</button>
+
+
+
+<button class="btn btn-outline-primary mt-5">SUBMIT</button>
+<button class="btn btn-outline-danger mt-5">SUBMIT</button>
+<button class="btn btn-outline-info mt-5">SUBMIT</button>
+</div>
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="alert alert-success" role="alert">
+            Form Submitted Successfully!!!
+        </div>
+ 
+         <div class="alert alert-danger" role="alert">
+            Form Submitted Successfully!!!
+         </div>
+
+     </div>
+
+</div>
+
+</body>
+</html>
